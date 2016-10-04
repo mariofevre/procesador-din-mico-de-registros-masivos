@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'Ropa Sans-local';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./ropa sans-2012-3.woff') format('woff'), local('Ropa Sans'), local('RopaSans-Regular');
+}
+
+p{
+	margin-top:0px;
+	margin-bottom:6px;
+}
+
+a{
+	color:#E41937;
+	text-decoration:none;
+	cursor:pointer;
+	border:none;
+}
+
+a:visited{
+	color:#E41937;
+	text-decoration:none;
+
+	border:none;
+}
+
+a:hover{
+	color:#6B0D1B;
+	text-decoration:none;
+	border:none;
+}
+
+
+body{
+background-color:#fff;
+color:#000000;
+font-size:10px;
+font-family:'Ropa Sans-local';
+}
+
+table{
+background-color:#ffffff;
+word-wrap:break-word;
+}
+
+	body{
+			
+		}
+		table{
+			border: 1px solid black;
+    		border-collapse: collapse;
+			background-color:#e8f6fb;
+		}
+		td, th{
+			max-width:20em;
+			border: 1px solid black;
+    		border-collapse: collapse;
+    		font-size:12px;
+    		word-wrap:break-word;
+		}
+		td{
+			vertical-align:top;
+		}
+		
+		td a{
+			padding:0;
+			border-radius:2px;
+			font-size 11px;
+			min-width:11px;
+			text-align:center;
+			margin:0px 1px 0px 0px;
+			vertical-align:top;
+			
+		}
+		
+		a, img{
+			display: inline-block;
+		}
+		a{
+			color:#000; 
+			padding:4px;
+			margin:1px;
+			font-size:10px;
+			background-color: #08AFD9;
+		}		
+		a:hover{
+			background-color: #e41937;
+		}
+		input{
+			margin:2px;
+		}
+		
+		form{
+			
+		}
+		h1, h2{
+			margin-bottom:0px;
+			vertical-align:middle;
+			margin-top: 20px;
+		}
+		h1 > img{
+			margin:3px;
+		}
+		
+		div.proyecto{
+			background-color:#fff;
+			border:2px solid #ccc;
+			display:block;
+			min-height:90px;
+			margin:2px;
+		}
+		div.variables{
+			display:inline-block;
+			position:relative;
+		    border:1px solid #000;
+		    font-size:10px;
+		    width:204px;
+		} 
+		
+		div.periodo{
+			display:block;
+			position:relative;
+			width:202px;
+			margin:1px;
+		}
+		
+		div.periodo.N{
+			background-color:#44a;
+		}
+		div.periodo.D{
+			background-color:#bbf;
+			
+		}
+		
+		div.registro{
+			display:block;
+			position:relative;
+			width:100%;
+			margin:1px;
+		}
+		
+		div.registro > div{
+			display:inline-block;
+			position:relative;
+			width:50px;
+		}
+		
+		
+		.contenidopolar{
+			display:block;
+			width:90px;
+			height:90px;
+			background-color: #fff;
+		}
+		.contenidopolar img{
+			max-height:90px;
+			max-width:90px;
+		}
+		.epigrafe{
+			width:90px;
+			height:30px;
+			line-height:10px;
+			display:block;
+			color:#fff;
+		}
+		.seccion{
+			margin:10px;
+			padding:10px;
+		}
+		.seccion.pdfs{
+			border:1px solid #e41937;
+		}		
+		.seccion.jpgs{
+			border:1px solid #08AFD9;
+		}
+		#carga{
+			
+			position:fixed;
+			right:5px;
+			top:5px;
+			z-index:100;
+		}	
+		
+		#cargando{
+			position:fixed;
+			top:60px;
+			left:300px;
+			background-color:#fff;
+			padding:10px;
+			border:1px solid #08AFD9;
+			display:none;
+		}	
+		div.doc{
+			display:inline-block;
+			border:1px solid #000;
+			margin:1px;
+			font-size:11px;			
+		}	
+		h3, h4{
+			margin-bottom:0px;
+			margin-top:10px;
+		}	
+		h3>span.nombre{
+			display:inline-block;
+			margin:1px;
+			border:1px solid #444;
+			width:500px;
+			font-size: 14px;
+		}
+		h3>a.procesar{
+			display:inline-block;
+			margin:1px;
+			border:1px solid #444;
+			width:60px;
+			font-size:12px;
+			padding:0px;
+		}
+		.LMP{
+			display:inline-block;
+			position:relative;
+		}
+		.leyenda{
+			position:absolute;
+			top:-20px;
+			font-size:12px;
+		}
+		.Rev{
+			position:relative;
+			display:inline-block;
+		}
+		.adjuntador{
+		    display: inline-block;
+		    height: 18px;
+		    vertical-align: top;
+		    width: 90px;
+		}
+		.upload{
+			font-size:12px;
+		}
+		iframe{
+			width:20em;
+			height:0em;
+			position:fixed;
+			right:0px;
+			top:0px;
+		}
+		td.anulada{
+			background-color:#ccc;
+			background-image: url('./img/anulada.png');
+			background-size:100% 100%;
+			
+			
+		}
+		div.accion{
+			display:inline-block;
+			width:10em;
+			min-height:40px;
+		}
+		tr.fm1{
+			border-top:2px solid #000;
+		}
+		.botonera{
+			width:0px;
+			height:0px;
+			display:inline-block;
+			position:relative;
+			overflow:visible;
+						vertical-align:top;
+		}		
+		.botones{
+			width:60px;
+			height:10px;
+			display:block;
+			position:absolute;
+			top:0px;
+			left:0px;
+			vertical-align:top;
+		}
+		
+div.elem{
+border-bottom: 1px solid gray;	
+}
